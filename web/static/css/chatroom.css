@@ -1,0 +1,120 @@
+/*@media screen and (min-width: 320px) and (max-width: 1156px){
+    .talk_con_mob{
+        width:600px;
+        height:500px;
+        border:1px solid #666666;
+        margin:50px auto 0;
+        background: #f9f9f9;
+    }
+    .talk_show_mob{
+        width:580px;
+        height:420px;
+        border:1px solid #666666;
+        background: #fff;
+        margin:10px auto 0;
+        overflow:auto;
+    }
+    .talk_input_mob{
+        width:580px;
+        margin:10px auto 0;
+    }
+    .talk_word_mob{
+        width:420px;
+        height:26px;
+        padding:0px;
+        float:left;
+        margin-left:10px;
+        outline:none;
+        text-indent:10px;
+    }
+}*/
+
+.chat_box{ /* 外边框夹内边框 */
+    width:600px;
+    height:520px;
+    border:1px solid #666666;
+    border-radius:5px;
+    margin:10px auto 0;
+    background: #d7d0bc;
+}
+.chat_content{ /* 聊天框内部 */
+    width:580px;
+    height:420px;
+    border:1px solid #666666;
+    border-radius:3px;
+    background: #f6f5e8;
+    margin:10px auto 0;
+    overflow:auto;
+}
+.online_info{
+    text-align: left;
+    margin: 5px;
+    margin-left: 10px;
+}
+.chat_input{
+    width:580px;
+    margin:16px auto 0;
+}
+.chat_input_content{
+    width:520px;
+    height:30px;
+    padding:0px;
+    float:left;
+    outline:none;
+    border-radius:3px;
+    text-indent:10px; /* 文字缩进 */
+}
+.chat_btn_send{
+    width:50px;
+    height:30px;
+    float:right;
+    margin-right:0px;
+    border-radius:3px;
+}
+
+/* 自己和他人输入样式 */
+.chat_own{
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.chat_own span{
+    text-align: right;
+    margin-right: 5px;
+}
+.chat_own textarea{
+    margin-top: 5px;
+    display:inline-block;
+    background: #0185cc;
+    border-radius:10px;
+    color: #fff;
+    padding: 5px 10px;
+
+    /* 使得文本区域没有边框，不能推拽，高度自适应 */
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+.chat_other{
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.chat_other span{
+    margin-left: 5px;
+}
+.chat_other textarea{
+    margin-top: 5px;
+    display:inline-block;
+    background: #fff;
+    border-radius:10px;
+    color: #0c0c0c;
+    padding:5px 10px;
+
+    /* 使得文本区域没有边框，不能推拽，高度自适应 */
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
