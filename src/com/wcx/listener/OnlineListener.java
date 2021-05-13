@@ -1,4 +1,4 @@
-package com.listener;
+package com.wcx.listener;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
